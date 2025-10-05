@@ -5,7 +5,7 @@
 
 ---
 
-## 🛰️ Resumo
+## Resumo
 
 O **AeroVigil** é um hub tecnológico de inteligência ambiental, desenvolvido para **monitorar, prever e alertar sobre a qualidade do ar em tempo real**.  
 A plataforma integra dados de satélite (**NASA TEMPO**), medições terrestres e informações meteorológicas, transformando dados complexos em três camadas de informação:
@@ -20,7 +20,7 @@ Mais do que um app, o AeroVigil propõe **um ecossistema de dados ambientais** q
 
 ---
 
-## 💡 Solução Proposta
+## Solução Proposta
 
 ### 1. O que a solução faz
 
@@ -38,14 +38,14 @@ Mais do que um app, o AeroVigil propõe **um ecossistema de dados ambientais** q
 
 O funcionamento do **AeroVigil** é dividido em módulos que se complementam:
 
-#### 🧭 Cadastro inicial
+#### Cadastro inicial
 
 O usuário informa seus dados básicos, localização e seleciona seu perfil de uso:
 
 - **Padrão:** Para pessoas leigas que desejam informações simples e diretas.  
 - **Avançado:** Para pesquisadores, gestores ou entusiastas que desejam acesso detalhado aos dados e modelos.
 
-#### 🔗 Coleta e integração de dados
+#### Coleta e integração de dados
 
 O backend integra continuamente informações de múltiplas fontes:
 
@@ -54,7 +54,7 @@ O backend integra continuamente informações de múltiplas fontes:
 - Dados meteorológicos da **NASA POWER API**, **NOAA**, **INMET** e **CPTEC**.  
 - Informações geoespaciais como relevo, uso do solo e densidade populacional.
 
-#### ⚙️ Processamento e previsão
+#### Processamento e previsão
 
 - Algoritmos de *machine learning* (ex: **LSTM**, **ARIMA**) e fórmulas atmosféricas são aplicados para gerar previsões de qualidade do ar entre 24 e 48 horas.  
 - O sistema calcula o **Índice de Qualidade do Ar (AQI)**, traduzindo os dados em uma escala compreensível (1 a 500), com cores e recomendações de saúde.  
@@ -62,13 +62,13 @@ O backend integra continuamente informações de múltiplas fontes:
 Categorias do AQI:  
 **Boa → Perigosa** (6 níveis totais, de *Good* a *Hazardous*).
 
-#### 🌍 Visualização e alertas
+#### Visualização e alertas
 
 - Mapas interativos coloridos com legendas intuitivas.  
 - Notificações em tempo real conforme a localização e o perfil do usuário.  
 - No modo avançado, é possível visualizar dados brutos, comparar séries e exportar relatórios.
 
-#### 🧠 Módulos de Inteligência e Contexto
+#### Módulos de Inteligência e Contexto
 
 - **Inteligência Ambiental:**  
   Sobre a camada de dados já coletada, o sistema aplica análises para gerar dashboards de inteligência — gráficos de correlação (ex: poluição vs. hora do dia), mapas de dispersão e análises de tendência.
@@ -95,7 +95,7 @@ Categorias do AQI:
 
 ---
 
-## 🛰️ Sobre o satélite TEMPO e sua relevância para o AeroVigil
+## Sobre o satélite TEMPO e sua relevância para o AeroVigil
 
 A missão **TEMPO** (*Tropospheric Emissions: Monitoring of Pollution*) é a espinha dorsal do projeto.  
 Lançado em abril de 2023 em **órbita geoestacionária**, o TEMPO é o primeiro instrumento espacial a **medir continuamente a qualidade do ar sobre a América do Norte** a cada hora diurna.
@@ -113,7 +113,7 @@ Para o **AeroVigil**, o TEMPO é a **base do sistema de previsão**, permitindo 
 
 ---
 
-### 🔧 Fontes e integração de dados NASA
+### Fontes e integração de dados NASA
 
 - **ASDC (Atmospheric Science Data Center):**  
   Distribui gratuitamente os dados do TEMPO a partir do NASA Langley Research Center.  
@@ -133,7 +133,7 @@ Para o **AeroVigil**, o TEMPO é a **base do sistema de previsão**, permitindo 
 
 ---
 
-## 📊 Sistema de Pontuação (AQI)
+## Sistema de Pontuação (AQI)
 
 | Índice (AQI) | Classificação | Cor | Ação Sugerida |
 |---------------|----------------|-----|----------------|
